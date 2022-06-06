@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/walmart-interview-homework/static/css/main.3999b8ec.css",
+    "main.js": "/walmart-interview-homework/static/js/main.34bb8db7.js",
+    "index.html": "/walmart-interview-homework/index.html",
+    "main.3999b8ec.css.map": "/walmart-interview-homework/static/css/main.3999b8ec.css.map",
+    "main.34bb8db7.js.map": "/walmart-interview-homework/static/js/main.34bb8db7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3999b8ec.css",
+    "static/js/main.34bb8db7.js"
+  ]
+}
