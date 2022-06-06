@@ -1,6 +1,7 @@
 import axios from 'axios'
 
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 class Albums extends React.Component {
 
@@ -30,9 +31,9 @@ class Albums extends React.Component {
   render() {
     const albums = this.state.albums.map(album => (
       <div key={album.id} className="container-entry">
-        <a href={`/album/${album.id}`}>
+        <Link to={`/album/${album.id}`}>
           {album.title}
-        </a>
+        </Link>
       </div>
     ))
     return (

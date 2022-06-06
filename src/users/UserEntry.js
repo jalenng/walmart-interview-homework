@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 class UserEntry extends React.Component {
 
@@ -14,7 +15,7 @@ class UserEntry extends React.Component {
       <div>
 
         {/* Main entry */}
-        <a href={`/profile/${this.props.id}`}>
+        <Link to={`/profile/${this.props.id}`}>
           <div
             className="container-entry"
             onMouseEnter={this.showPopup.bind(this)}
@@ -22,7 +23,7 @@ class UserEntry extends React.Component {
           >
             {this.props.name}
           </div>
-        </a>
+        </Link>
 
         {/* Popup */}
         {this.state.showPopup &&
